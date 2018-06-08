@@ -12,6 +12,12 @@
 		F2A1D8B420CA827B00843E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A1D8B220CA827B00843E2E /* Main.storyboard */; };
 		F2A1D8B620CA827D00843E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A1D8B520CA827D00843E2E /* Assets.xcassets */; };
 		F2A1D8B920CA827D00843E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A1D8B720CA827D00843E2E /* LaunchScreen.storyboard */; };
+		F2A1D8C420CA82B900843E2E /* XYCyclePageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D8C120CA82B900843E2E /* XYCyclePageFlowLayout.swift */; };
+		F2A1D8C520CA82B900843E2E /* PageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D8C220CA82B900843E2E /* PageCollectionViewCell.swift */; };
+		F2A1D8C620CA82B900843E2E /* XYCyclePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A1D8C320CA82B900843E2E /* XYCyclePageView.swift */; };
+		F2A1D8CA20CA84B300843E2E /* 生鲜果蔬.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A1D8C720CA84B300843E2E /* 生鲜果蔬.png */; };
+		F2A1D8CB20CA84B300843E2E /* 居家花艺.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A1D8C820CA84B300843E2E /* 居家花艺.png */; };
+		F2A1D8CC20CA84B300843E2E /* 邻里美厨.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A1D8C920CA84B300843E2E /* 邻里美厨.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		F2A1D8B520CA827D00843E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2A1D8B820CA827D00843E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2A1D8BA20CA827D00843E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A1D8C120CA82B900843E2E /* XYCyclePageFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYCyclePageFlowLayout.swift; sourceTree = "<group>"; };
+		F2A1D8C220CA82B900843E2E /* PageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCollectionViewCell.swift; sourceTree = "<group>"; };
+		F2A1D8C320CA82B900843E2E /* XYCyclePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYCyclePageView.swift; sourceTree = "<group>"; };
+		F2A1D8C720CA84B300843E2E /* 生鲜果蔬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生鲜果蔬.png"; sourceTree = "<group>"; };
+		F2A1D8C820CA84B300843E2E /* 居家花艺.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "居家花艺.png"; sourceTree = "<group>"; };
+		F2A1D8C920CA84B300843E2E /* 邻里美厨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邻里美厨.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		F2A1D8AD20CA827B00843E2E /* XYCyclePagerView */ = {
 			isa = PBXGroup;
 			children = (
+				F2A1D8C020CA829F00843E2E /* Class */,
 				F2A1D8AE20CA827B00843E2E /* AppDelegate.swift */,
 				F2A1D8B020CA827B00843E2E /* ViewController.swift */,
+				F2A1D8C820CA84B300843E2E /* 居家花艺.png */,
+				F2A1D8C920CA84B300843E2E /* 邻里美厨.png */,
+				F2A1D8C720CA84B300843E2E /* 生鲜果蔬.png */,
 				F2A1D8B220CA827B00843E2E /* Main.storyboard */,
 				F2A1D8B520CA827D00843E2E /* Assets.xcassets */,
 				F2A1D8B720CA827D00843E2E /* LaunchScreen.storyboard */,
 				F2A1D8BA20CA827D00843E2E /* Info.plist */,
 			);
 			path = XYCyclePagerView;
+			sourceTree = "<group>";
+		};
+		F2A1D8C020CA829F00843E2E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1D8C220CA82B900843E2E /* PageCollectionViewCell.swift */,
+				F2A1D8C120CA82B900843E2E /* XYCyclePageFlowLayout.swift */,
+				F2A1D8C320CA82B900843E2E /* XYCyclePageView.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A1D8CC20CA84B300843E2E /* 邻里美厨.png in Resources */,
+				F2A1D8CB20CA84B300843E2E /* 居家花艺.png in Resources */,
 				F2A1D8B920CA827D00843E2E /* LaunchScreen.storyboard in Resources */,
 				F2A1D8B620CA827D00843E2E /* Assets.xcassets in Resources */,
+				F2A1D8CA20CA84B300843E2E /* 生鲜果蔬.png in Resources */,
 				F2A1D8B420CA827B00843E2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A1D8C620CA82B900843E2E /* XYCyclePageView.swift in Sources */,
 				F2A1D8B120CA827B00843E2E /* ViewController.swift in Sources */,
 				F2A1D8AF20CA827B00843E2E /* AppDelegate.swift in Sources */,
+				F2A1D8C420CA82B900843E2E /* XYCyclePageFlowLayout.swift in Sources */,
+				F2A1D8C520CA82B900843E2E /* PageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
